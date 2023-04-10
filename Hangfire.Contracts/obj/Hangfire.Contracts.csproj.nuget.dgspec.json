@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Almir Tihak\\source\\repos\\Hangfire\\Hangfire.Contracts\\Hangfire.Contracts.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Almir Tihak\\source\\repos\\Hangfire\\Hangfire.Contracts\\Hangfire.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Almir Tihak\\source\\repos\\Hangfire\\Hangfire.Contracts\\Hangfire.Contracts.csproj",
+        "projectName": "Hangfire.Contracts",
+        "projectPath": "C:\\Users\\Almir Tihak\\source\\repos\\Hangfire\\Hangfire.Contracts\\Hangfire.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Almir Tihak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Almir Tihak\\source\\repos\\Hangfire\\Hangfire.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Almir Tihak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Almir Tihak\\source\\repos\\Hangfire\\Hangfire.Implementation\\Hangfire.Implementation.csproj": {
+                "projectPath": "C:\\Users\\Almir Tihak\\source\\repos\\Hangfire\\Hangfire.Implementation\\Hangfire.Implementation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Almir Tihak\\source\\repos\\Hangfire\\Hangfire.Implementation\\Hangfire.Implementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Almir Tihak\\source\\repos\\Hangfire\\Hangfire.Implementation\\Hangfire.Implementation.csproj",
+        "projectName": "Hangfire.Implementation",
+        "projectPath": "C:\\Users\\Almir Tihak\\source\\repos\\Hangfire\\Hangfire.Implementation\\Hangfire.Implementation.csproj",
+        "packagesPath": "C:\\Users\\Almir Tihak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Almir Tihak\\source\\repos\\Hangfire\\Hangfire.Implementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Almir Tihak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
