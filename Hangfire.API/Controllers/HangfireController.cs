@@ -49,5 +49,16 @@
             return Ok();
         }
 
+        /// <summary>
+        /// Fourth type of Hangfire job: Continuation job is that it chains together task execution. We can get two jobs to run one after the other in continuation
+        /// </summary>
+        [HttpGet("/ContinuationJob")]
+        public IActionResult ContinuationJob()
+        {
+            var mainJobId = _backgroundJobClient.Enqueue((() => _jobService.FireAndForgetJob()));
+            _backgroundJobClient.ContinueJobWith(mainJobId, () => _jobService.ContinuationJob());
+
+            return Ok();
+        }
     }
 }
