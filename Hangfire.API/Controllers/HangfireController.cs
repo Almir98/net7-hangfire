@@ -16,11 +16,21 @@
         /// <summary>
         /// First type of Hangfire job: Fire and Forget
         /// </summary>
-        /// <returns></returns>
         [HttpGet("/FireAndForgetJob")]
         public IActionResult CreateFireAndForgetJob()
         {
             _backgroundJobClient.Enqueue(() => _jobService.FireAndForgetJob());
+
+            return Ok();
+        }
+
+        /// <summary>
+        /// Second type of Hangfire job: Delayed job which will run every 20 seconds
+        /// </summary>
+        [HttpGet("/DelayedJob")]
+        public IActionResult DelayedJob()
+        {
+            _backgroundJobClient.Schedule("jobId", () => _jobService.DelayedJob(), TimeSpan.FromSeconds(20));
 
             return Ok();
         }
