@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hJ1Zl2EB7HSerIOqUBCr3FSpCMAkCLTDQeAqD3MWR3Ac91+SbGBbIUCUqMQWJoimmwH6hc9SMxQ6xTGOoCwteg==",
+  "dgSpecHash": "DqkVrzolwoNynqjoxfoevZiR/Wn0kU5iQ9qdvxNxsjpseBIiYI66M1648t8O2gDHq4dVny4fbEXDTLU+gTtsgw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Almir Tihak\\source\\repos\\Hangfire\\Hangfire.API\\Hangfire.API.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\Almir Tihak\\.nuget\\packages\\hangfire\\1.8.0-rc3\\hangfire.1.8.0-rc3.nupkg.sha512",
     "C:\\Users\\Almir Tihak\\.nuget\\packages\\hangfire.aspnetcore\\1.8.0-rc3\\hangfire.aspnetcore.1.8.0-rc3.nupkg.sha512",
     "C:\\Users\\Almir Tihak\\.nuget\\packages\\hangfire.core\\1.8.0-rc3\\hangfire.core.1.8.0-rc3.nupkg.sha512",
+    "C:\\Users\\Almir Tihak\\.nuget\\packages\\hangfire.memorystorage\\1.7.0\\hangfire.memorystorage.1.7.0.nupkg.sha512",
     "C:\\Users\\Almir Tihak\\.nuget\\packages\\hangfire.netcore\\1.8.0-rc3\\hangfire.netcore.1.8.0-rc3.nupkg.sha512",
     "C:\\Users\\Almir Tihak\\.nuget\\packages\\hangfire.sqlserver\\1.8.0-rc3\\hangfire.sqlserver.1.8.0-rc3.nupkg.sha512",
     "C:\\Users\\Almir Tihak\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

@@ -9,6 +9,7 @@ C:\Users\Almir Tihak\source\repos\Hangfire\Hangfire.API\bin\Debug\net7.0\Azure.C
 C:\Users\Almir Tihak\source\repos\Hangfire\Hangfire.API\bin\Debug\net7.0\Azure.Identity.dll
 C:\Users\Almir Tihak\source\repos\Hangfire\Hangfire.API\bin\Debug\net7.0\Hangfire.AspNetCore.dll
 C:\Users\Almir Tihak\source\repos\Hangfire\Hangfire.API\bin\Debug\net7.0\Hangfire.Core.dll
+C:\Users\Almir Tihak\source\repos\Hangfire\Hangfire.API\bin\Debug\net7.0\Hangfire.MemoryStorage.dll
 C:\Users\Almir Tihak\source\repos\Hangfire\Hangfire.API\bin\Debug\net7.0\Hangfire.NetCore.dll
 C:\Users\Almir Tihak\source\repos\Hangfire\Hangfire.API\bin\Debug\net7.0\Hangfire.SqlServer.dll
 C:\Users\Almir Tihak\source\repos\Hangfire\Hangfire.API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll

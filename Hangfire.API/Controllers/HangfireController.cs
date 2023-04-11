@@ -32,7 +32,7 @@
         [HttpGet("/DelayedJob")]
         public IActionResult DelayedJob()
         {
-            _backgroundJobClient.Schedule("jobId", () => _jobService.DelayedJob(), TimeSpan.FromSeconds(20));
+            _backgroundJobClient.Schedule("jobid", () => _jobService.DelayedJob(), TimeSpan.FromSeconds(20));
 
             return Ok();
         }
