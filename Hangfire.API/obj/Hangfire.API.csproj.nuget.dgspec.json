@@ -35,6 +35,9 @@
             "projectReferences": {
               "C:\\Users\\Almir Tihak\\source\\repos\\Hangfire\\Hangfire.Contracts\\Hangfire.Contracts.csproj": {
                 "projectPath": "C:\\Users\\Almir Tihak\\source\\repos\\Hangfire\\Hangfire.Contracts\\Hangfire.Contracts.csproj"
+              },
+              "C:\\Users\\Almir Tihak\\source\\repos\\Hangfire\\Hangfire.Implementation\\Hangfire.Implementation.csproj": {
+                "projectPath": "C:\\Users\\Almir Tihak\\source\\repos\\Hangfire\\Hangfire.Implementation\\Hangfire.Implementation.csproj"
               }
             }
           }
@@ -49,6 +52,22 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Hangfire": {
+              "target": "Package",
+              "version": "[1.8.0-rc3, )"
+            },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.0-rc3, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.8.0-rc3, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.17.0, )"
@@ -109,11 +128,7 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\Almir Tihak\\source\\repos\\Hangfire\\Hangfire.Implementation\\Hangfire.Implementation.csproj": {
-                "projectPath": "C:\\Users\\Almir Tihak\\source\\repos\\Hangfire\\Hangfire.Implementation\\Hangfire.Implementation.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -173,7 +188,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Almir Tihak\\source\\repos\\Hangfire\\Hangfire.Contracts\\Hangfire.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Almir Tihak\\source\\repos\\Hangfire\\Hangfire.Contracts\\Hangfire.Contracts.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

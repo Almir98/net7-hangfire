@@ -9,12 +9,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Hangfire" Version="1.8.0-rc3" />
+    <PackageReference Include="Hangfire.AspNetCore" Version="1.8.0-rc3" />
+    <PackageReference Include="Hangfire.SqlServer" Version="1.8.0-rc3" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.1" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Hangfire.Contracts\Hangfire.Contracts.csproj" />
+    <ProjectReference Include="..\Hangfire.Implementation\Hangfire.Implementation.csproj" />
   </ItemGroup>
 
 </Project>

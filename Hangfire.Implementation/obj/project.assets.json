@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Hangfire.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Hangfire.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hangfire.Contracts.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Hangfire.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Hangfire.Contracts/Hangfire.Contracts.csproj",
+      "msbuildProject": "../Hangfire.Contracts/Hangfire.Contracts.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Hangfire.Contracts >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Almir Tihak\\.nuget\\packages\\": {},
@@ -40,7 +59,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Almir Tihak\\source\\repos\\Hangfire\\Hangfire.Contracts\\Hangfire.Contracts.csproj": {
+              "projectPath": "C:\\Users\\Almir Tihak\\source\\repos\\Hangfire\\Hangfire.Contracts\\Hangfire.Contracts.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

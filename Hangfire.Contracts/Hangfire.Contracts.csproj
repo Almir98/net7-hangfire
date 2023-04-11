@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Hangfire.Implementation\Hangfire.Implementation.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="Interaface\" />
   </ItemGroup>
 
