@@ -1,3 +1,5 @@
+using Hangfire.API.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -32,6 +34,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.UseHangfireDashboard();
+// Extenssion method for configuring Hangfire dashboard
+app.ConfigureHangfireDashboard(builder, builder.Configuration);
 
 app.Run();

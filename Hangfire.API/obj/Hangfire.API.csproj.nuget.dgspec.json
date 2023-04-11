@@ -64,6 +64,10 @@
               "target": "Package",
               "version": "[1.8.0-rc3, )"
             },
+            "Hangfire.Dashboard.Basic.Authentication": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Hangfire.MemoryStorage": {
               "target": "Package",
               "version": "[1.7.0, )"
