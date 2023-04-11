@@ -1,0 +1,12 @@
+C:\Users\Almir Tihak\source\repos\Hangfire\Hangfire.Contracts\bin\Debug\net7.0\Hangfire.Contracts.deps.json
+C:\Users\Almir Tihak\source\repos\Hangfire\Hangfire.Contracts\bin\Debug\net7.0\Hangfire.Contracts.dll
+C:\Users\Almir Tihak\source\repos\Hangfire\Hangfire.Contracts\bin\Debug\net7.0\Hangfire.Contracts.pdb
+C:\Users\Almir Tihak\source\repos\Hangfire\Hangfire.Contracts\obj\Debug\net7.0\Hangfire.Contracts.csproj.AssemblyReference.cache
+C:\Users\Almir Tihak\source\repos\Hangfire\Hangfire.Contracts\obj\Debug\net7.0\Hangfire.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Almir Tihak\source\repos\Hangfire\Hangfire.Contracts\obj\Debug\net7.0\Hangfire.Contracts.AssemblyInfoInputs.cache
+C:\Users\Almir Tihak\source\repos\Hangfire\Hangfire.Contracts\obj\Debug\net7.0\Hangfire.Contracts.AssemblyInfo.cs
+C:\Users\Almir Tihak\source\repos\Hangfire\Hangfire.Contracts\obj\Debug\net7.0\Hangfire.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Almir Tihak\source\repos\Hangfire\Hangfire.Contracts\obj\Debug\net7.0\Hangfire.Contracts.dll
+C:\Users\Almir Tihak\source\repos\Hangfire\Hangfire.Contracts\obj\Debug\net7.0\refint\Hangfire.Contracts.dll
+C:\Users\Almir Tihak\source\repos\Hangfire\Hangfire.Contracts\obj\Debug\net7.0\Hangfire.Contracts.pdb
+C:\Users\Almir Tihak\source\repos\Hangfire\Hangfire.Contracts\obj\Debug\net7.0\ref\Hangfire.Contracts.dll
