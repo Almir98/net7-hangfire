@@ -5,11 +5,13 @@
     public class HangfireController : ControllerBase
     {
         private readonly IBackgroundJobClient _backgroundJobClient;
+        private readonly IRecurringJobManager _recurringJobManager;
         private readonly IJobService _jobService;
 
-        public HangfireController(IBackgroundJobClient backgroundJobClient, IJobService jobService)
+        public HangfireController(IBackgroundJobClient backgroundJobClient, IJobService jobService, IRecurringJobManager recurringJobManager)
         {
             _backgroundJobClient = backgroundJobClient;
+            _recurringJobManager = recurringJobManager;
             _jobService = jobService;
         }
 
@@ -35,8 +37,17 @@
             return Ok();
         }
 
+        /// <summary>
+        /// Third type of Hangfire job: Reccuring job which can repeat in a certain interval we set with Cron
+        /// Cron is a software utility for defining the schedule of tasks
+        /// </summary>
+        [HttpGet("/ReccuringJob")]
+        public IActionResult ReccuringJob()
+        {
+            _recurringJobManager.AddOrUpdate("jobId", () => _jobService.ReccuringJob(), Cron.Minutely);
 
-
+            return Ok();
+        }
 
     }
 }
